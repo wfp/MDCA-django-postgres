@@ -3,7 +3,7 @@ from decimal import Decimal
 import datetime
 
 from django.db import models
-from django.db.models.sql import aggregates
+from django.db.models import aggregates
 from django.utils import six
 from django import forms
 from django.utils.translation import ugettext_lazy as _
